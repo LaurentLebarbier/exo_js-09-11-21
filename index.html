@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>exercices js</title>
+</head>
+    <body>
+    <form action="" method="post" novalidate>
+        <div class="container">
+            <div class="container_name">
+                <label > nom <input pattern="^([A-Z][a-z]+([a-z]?[-]?[a-z]+)*)$" class="name" type="text" id="nom" name="name" required size="10"></label>
+                <p hidden>Votre nom doit commencer par une majuscule et doit contenir lettre et tiret</p>
+            </div>
+
+
+            <div class="container_note">
+                <label > note <input step="0.01" class="note" type="number" id="number" value="" required min="0" max="20"></label>
+                <p hidden>La note doit être un nombre entre 0 et 20</p>
+            </div>
+
+            <input class="btn" type="submit" value="envoyer">
+
+        </div>
+    </form>
+    </body>
+
+<script src="script.js"></script>
+
+</html>

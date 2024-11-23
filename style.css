@@ -1,0 +1,35 @@
+.container {
+    width: 23em;
+    height: 11em;
+    background-color: #9ECEFB;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 2em;
+}
+
+.container_name {
+    margin-left: 2em;
+}
+
+    .name {
+
+        margin-top: 2em;
+        width: 20em;
+        height: 2em;
+    }
+
+.container_note {
+    margin-left: 2em;
+}
+    .note {
+        width: 20em;
+        height: 2em;
+    }
+
+    .btn {
+        position: fixed;
+        margin-left: 10em;
+        margin-bottom: 1em;
+        width: 7em;
+    }
+
